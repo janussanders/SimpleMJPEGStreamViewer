@@ -71,7 +71,7 @@
             // 
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 93);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 91);
             this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.splitContainer1.Name = "splitContainer1";
             // 
@@ -82,7 +82,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.simpleLayoutPanel1);
-            this.splitContainer1.Size = new System.Drawing.Size(1599, 729);
+            this.splitContainer1.Size = new System.Drawing.Size(1599, 731);
             this.splitContainer1.SplitterDistance = 481;
             this.splitContainer1.SplitterWidth = 6;
             this.splitContainer1.TabIndex = 0;
@@ -102,8 +102,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.propertyGrid1);
-            this.splitContainer2.Size = new System.Drawing.Size(479, 727);
-            this.splitContainer2.SplitterDistance = 517;
+            this.splitContainer2.Size = new System.Drawing.Size(479, 729);
+            this.splitContainer2.SplitterDistance = 518;
             this.splitContainer2.SplitterWidth = 6;
             this.splitContainer2.TabIndex = 1;
             // 
@@ -128,7 +128,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(479, 517);
+            this.dataGridView1.Size = new System.Drawing.Size(479, 518);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
@@ -173,7 +173,7 @@
             this.propertyGrid1.Location = new System.Drawing.Point(0, 0);
             this.propertyGrid1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(479, 204);
+            this.propertyGrid1.Size = new System.Drawing.Size(479, 205);
             this.propertyGrid1.TabIndex = 0;
             this.propertyGrid1.ToolbarVisible = false;
             // 
@@ -183,7 +183,7 @@
             this.simpleLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.simpleLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.simpleLayoutPanel1.Name = "simpleLayoutPanel1";
-            this.simpleLayoutPanel1.Size = new System.Drawing.Size(1110, 727);
+            this.simpleLayoutPanel1.Size = new System.Drawing.Size(1110, 729);
             this.simpleLayoutPanel1.TabIndex = 0;
             // 
             // toolStrip1
@@ -204,7 +204,7 @@
             this.toolStripButton2,
             this.toolStripButton1,
             this.toolStripButton7});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 35);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 33);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.toolStrip1.Size = new System.Drawing.Size(1599, 58);
@@ -334,7 +334,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1599, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1599, 33);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -384,6 +384,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainForm";

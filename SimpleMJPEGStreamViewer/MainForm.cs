@@ -23,7 +23,7 @@ namespace SimpleMJPEGStreamViewer {
         public MainForm() {
             InitializeComponent();
 
-            this.Icon = Icon.FromHandle(Resources.cam.GetHicon());
+            this.Icon = Icon.FromHandle(Resources.logo.GetHicon());
 
             sync = SynchronizationContext.Current;
 
