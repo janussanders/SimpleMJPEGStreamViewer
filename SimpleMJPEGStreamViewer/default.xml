@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <ArrayOfVideoItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VideoItem>
-    <Name>http://192.168.3.1:8080/?action=stream</Name>
-    <Url>http://192.168.3.1:8080/?action=stream</Url>
+    <Name>http://192.168.43.44:8080/?action=stream</Name>
+    <Url>http://192.168.43.44:8080/?action=stream</Url>
     <Playing>true</Playing>
     <Visible>true</Visible>
     <MaxStreamBufferSize>1024</MaxStreamBufferSize>
@@ -10,11 +10,13 @@
 	<Password>onioneer</Password>
   </VideoItem>
   <VideoItem>
-    <Name>http://admin:admin@192.168.1.20/mjpg/video.mjpg</Name>
-    <Url>http://admin:admin@192.168.1.20/mjpg/video.mjpg</Url>
+    <Name>http://192.168.43.126:8080/?action=stream</Name>
+    <Url>http://192.168.43.126:8080/?action=stream</Url>
     <Playing>true</Playing>
     <Visible>true</Visible>
     <MaxStreamBufferSize>1024</MaxStreamBufferSize>
+	<Login>root</Login>
+	<Password>onioneer</Password>
   </VideoItem>
   <VideoItem>
     <Name>http://142.36.244.87:8888/axis-cgi/mjpg/video.cgi</Name>
